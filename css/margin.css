@@ -1,0 +1,18 @@
+.box-style {
+    width: 300px;
+    height: 300px;
+}
+.box-1 {
+      background-color: blue;
+    /* grosor de border, tipo de border, tipo de border  */
+    border: 1px solid rgb(64, 64, 64);
+}
+.box-2 {
+    
+}
+.box-3 {
+
+}
+.box-4 {
+    
+}
