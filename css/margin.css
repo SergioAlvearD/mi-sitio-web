@@ -1,18 +1,46 @@
+body{
+    background-color: bisque;
+}
 .box-style {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    display: inline-block;
+
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+    margin: 30px 10px ;
+
+    margin: 30px;
+
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+
+    padding: 0 45px;
+
+    text-align: justify;
+
+    letter-spacing: .1em;
+    word-spacing: .2em;
+    line-height: 2em;
 }
 .box-1 {
-      background-color: blue;
     /* grosor de border, tipo de border, tipo de border  */
     border: 1px solid rgb(64, 64, 64);
 }
 .box-2 {
-    
+    border: 5px dotted red;
 }
 .box-3 {
-
+    border: 5px dashed blue;
 }
 .box-4 {
-    
+    border: 5px double darkcyan;
+}
+p {
+    font-size: 1.4em;
+    color: rgb(48, 48, 48);
 }
