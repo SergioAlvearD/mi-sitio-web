@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <link rel="stylesheet" href="css/formularios.css"
+</head>
+<body>
+    <div class="main-box">
+        <form action="get">
+            <div class="form-title">
+                <span class="txt-title">oficina virtual</span>
+            </div>
+            <div class="form-box">
+                <label class="ini-sec">Iniciar sesión</label>
+            <label>Ingrese el tipo de documento</label>
+            <select name="">
+                <option value="cc"> Cédula de ciudadanía </option>
+                <option value="ti">Tarjeta de identidad</option>
+                <option value="rc">Registro civil</option>
+                <option value="te">Tarjeta de extrangería</option>
+            </select>
+            <label>Ingrese su número de documento</label>
+            <input type="text" name="">
+            <br>
+            <label>Selecione los días para visualizar las citar disponibles</label>
+            <input type="checkbox" name="fecha-cita" value="2023-04-19"> Miércoles, 19 de abril del 2023
+            <br>
+            <input type="checkbox" name="fecha-cita" value="2023-04-20"> Jueves, 20 de abril del 2023
+            <br>
+            <input type="checkbox" name="fecha-cita" value="2023-04-21"> Viernes, 21 de abril del 2023
+            <br>
+            <input type="checkbox" name="fecha-cita" value="2023-04-22"> Sábado, 22 de abril del 2023
+            <br>
+            <label>Ingrese su género</label>
+            <input type="radio" name="genero" value="masculino"> Masculino
+            <input type="radio" name="genero" value="femenino"> Femenino
+            <input type="radio" name="genero" value="otros"> Otros
+            <br>
+            <label>¿Le gustaría realizar una petición especial?</label>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <br>
+            <input type="submit" value="enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
