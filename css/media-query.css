@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img-background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/playa.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.img-logo{
+    float: left;
+}
+
+.barra-nav{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+ }
+
+.main-nav{
+    width: 1250px;
+    height: 100px;
+    position: absolute;
+}
+
+.main-menu{
+   text-align: left;
+   line-height: 50px;
+}   
+
+li{
+    display: inline-block;
+    margin:20px 25px ;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+a{
+    color: rgb(64, 64, 64);
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+li:hover {
+    cursor: pointer;
+    font-weight: 900;
+    border-bottom: 2px;
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 1300px) {
+    .main-menu {
+        display: none;
+    }
+}
+
+
+
