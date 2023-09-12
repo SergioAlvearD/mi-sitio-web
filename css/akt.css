@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira', sans-serif;
+}
+.primera{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 63, 109);
+    padding: 15px;
+    height: 20px;
+    font-size: 1.1em;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+} 
+li{
+    list-style: none; 
+    color: white;
+    cursor: pointer;
+}
+img{
+  width: 70px;
+  cursor: pointer;
+}
+.roto{
+  background-color: aliceblue;
+  width: 120px;
+}
+.logo{
+  font-size: 1.2em;
+}
+.roto-2{
+  background-color: aliceblue;
+  width: 6px;
+}
+.segunda{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  height: 50px;
+  font-size: 1.1em;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.akt{
+  width: 110px;
+}
+.letras{
+  color: rgb(178,178,178);
+}
+.roto-3{
+  width: 80px;
+}
+.roto-4{
+  width: 20px;
+}
+.motocarro{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* saira-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/saira-v19-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* saira-200 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/saira-v19-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* saira-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/saira-v19-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* saira-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/saira-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* saira-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/saira-v19-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* saira-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/saira-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* saira-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/saira-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
