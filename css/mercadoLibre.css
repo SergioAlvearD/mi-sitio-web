@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav-mobile{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255,241,89);
+    display: grid;
+    grid-template: "box-logo-merc box-input menu-hamburguesa carrito" /
+                        60px     1fr           50px            50px; 
+}
+.box-logo-merc{
+    grid-area: box-logo-merc;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo-merc{
+    width: 50px;
+}
+.box-input{
+    grid-area: box-input;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.icon-lupa{
+    color: rgb(64,64,64,.5);
+}
+.menu-hamburguesa{
+    grid-area: menu-hamburguesa;
+    display: flex;
+    align-items: center;
+}
+.carrito{
+    grid-area: carrito;
+    display: flex;
+    align-items: center;
+}
+.box-icon-style{
+    color: rgb(24,24,24,.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+.input-busqueda{
+    width: 90%;
+    outline: none;
+    border: none;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.box-producto{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template: "box-imagen box-info-producto" /
+                        7fr         10fr;
+}
+.box-imagen{
+    grid-area: box-imagen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-producto{
+    width: 85%;
+}
+.box-info-producto{
+    grid-area: box-info-producto;
+    background-color: rgb(210,210,210,.8);
+}
